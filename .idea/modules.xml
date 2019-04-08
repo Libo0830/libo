@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/libo.iml" filepath="$PROJECT_DIR$/libo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-java/libo-java.iml" filepath="$PROJECT_DIR$/libo-java/libo-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-netty/libo-netty.iml" filepath="$PROJECT_DIR$/libo-netty/libo-netty.iml" />
+    </modules>
+  </component>
+</project>

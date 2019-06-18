@@ -1,4 +1,4 @@
-package com.lb.java.hread;
+package com.lb.java.thread;
 
 /**
  * @Author:bo.li

@@ -1,9 +1,4 @@
-package com.lb.java.hread;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Vector;
+package com.lb.java.thread;
 
 /**
  * @Author:bo.li

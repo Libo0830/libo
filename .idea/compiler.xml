@@ -8,12 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="libo-java" />
         <module name="libo-netty" />
+        <module name="libo-spring" />
+        <module name="libo-spring-boot" />
+        <module name="libo-spring-cloud-client" />
+        <module name="libo-spring-cloud-eureka-config" />
+        <module name="libo-spring-cloud-eureka-config-server" />
+        <module name="libo-spring-cloud-eureka-config-server1" />
+        <module name="libo-spring-cloud-study-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="libo" target="1.8" />
       <module name="libo-java" target="1.8" />
       <module name="libo-netty" target="1.8" />
+      <module name="libo-spring" target="1.8" />
+      <module name="libo-spring-boot" target="1.8" />
+      <module name="libo-spring-cloud-client" target="1.8" />
+      <module name="libo-spring-cloud-eureka-config" target="1.8" />
+      <module name="libo-spring-cloud-eureka-config-server" target="1.8" />
+      <module name="libo-spring-cloud-eureka-config-server1" target="1.8" />
+      <module name="libo-spring-cloud-study-eureka" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

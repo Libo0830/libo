@@ -5,6 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/libo.iml" filepath="$PROJECT_DIR$/libo.iml" />
       <module fileurl="file://$PROJECT_DIR$/libo-java/libo-java.iml" filepath="$PROJECT_DIR$/libo-java/libo-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/libo-netty/libo-netty.iml" filepath="$PROJECT_DIR$/libo-netty/libo-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-spring/libo-spring.iml" filepath="$PROJECT_DIR$/libo-spring/libo-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-spring-boot/libo-spring-boot.iml" filepath="$PROJECT_DIR$/libo-spring-boot/libo-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-spring-cloud-client/libo-spring-cloud-client.iml" filepath="$PROJECT_DIR$/libo-spring-cloud-client/libo-spring-cloud-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-spring-cloud-eureka-config/libo-spring-cloud-eureka-config.iml" filepath="$PROJECT_DIR$/libo-spring-cloud-eureka-config/libo-spring-cloud-eureka-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-spring-cloud-eureka-config-server/libo-spring-cloud-eureka-config-server.iml" filepath="$PROJECT_DIR$/libo-spring-cloud-eureka-config-server/libo-spring-cloud-eureka-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-spring-cloud-eureka-config-server1/libo-spring-cloud-eureka-config-server1.iml" filepath="$PROJECT_DIR$/libo-spring-cloud-eureka-config-server1/libo-spring-cloud-eureka-config-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libo-spring-cloud-study-eureka/libo-spring-cloud-study-eureka.iml" filepath="$PROJECT_DIR$/libo-spring-cloud-study-eureka/libo-spring-cloud-study-eureka.iml" />
     </modules>
   </component>
 </project>

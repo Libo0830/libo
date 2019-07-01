@@ -1,0 +1,17 @@
+server:
+  port: 8089
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8088/eureka/,http://${eureka.instance.hostname}:8090/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+    enable-self-preservation: false
+spring:
+  application:
+    name: eureka-server2

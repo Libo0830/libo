@@ -4,10 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>mx.parent</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-        <relativePath></relativePath>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.0.RELEASE</version>
     </parent>
     <groupId>libo</groupId>
     <artifactId>libo-parent</artifactId>
@@ -16,6 +15,13 @@
     <modules>
         <module>libo-java</module>
         <module>libo-netty</module>
+        <module>libo-spring</module>
+        <module>libo-spring-boot</module>
+        <module>libo-spring-cloud-study-eureka</module>
+        <module>libo-spring-cloud-client</module>
+        <module>libo-spring-cloud-eureka-config</module>
+        <module>libo-spring-cloud-eureka-config-server</module>
+        <module>libo-spring-cloud-eureka-config-server1</module>
     </modules>
 
     <properties>
@@ -23,6 +29,8 @@
         <chkcode.server>0.2</chkcode.server>
         <version.mid>0.1</version.mid>
         <version.thirdlogin>1.0-SNAPSHOT</version.thirdlogin>
+        <version.spring.boot>2.0.0.RELEASE</version.spring.boot>
+        <version.spring.cloud>Finchley.BUILD-SNAPSHOT</version.spring.cloud>
     </properties>
 
 
@@ -39,6 +47,18 @@
                 <version>${spring.test}</version>
                 <scope>test</scope>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot</artifactId>
+                <version>${version.spring.boot}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.BUILD-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -47,7 +67,21 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
     </dependencies>
-    <build>
-    </build>
+
+
+    <repositories>
+        <repository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/libs-snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>

@@ -1,5 +1,8 @@
 package collection;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+
 /**
  * @Author:bo.li
  * @Date:2019/4/10 15:39
@@ -13,7 +16,6 @@ public class MyList {
     }
 
     public void add(Object obj){
-
     }
 
 }

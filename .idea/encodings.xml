@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libo-java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libo-netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libo-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libo-spring-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libo-spring-cloud-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libo-spring-cloud-eureka-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libo-spring-cloud-eureka-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libo-spring-cloud-eureka-config-server1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libo-spring-cloud-study-eureka" charset="UTF-8" />
   </component>
 </project>

@@ -3,9 +3,9 @@ package lb.classload;
 public class ClassLoadDemo {
     public static void main(String[] args) throws ClassNotFoundException {
 
-        Class<Demo> class1 = Demo.class;
-        System.out.println("------------------------");
-        Class demo = Class.forName("lb.classload.Demo");
+//        Class<Demo> class1 = Demo.class;
+//        System.out.println("------------------------");
+//        Class demo = Class.forName("lb.classload.Demo");
 
         System.out.println(Demo1.getInstens().c1);
         System.out.println(Demo1.getInstens().c2);

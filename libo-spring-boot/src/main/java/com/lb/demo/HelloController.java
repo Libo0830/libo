@@ -12,10 +12,7 @@ public class HelloController {
     
     @RequestMapping("hello")
     public String hello(){
-        return "hel" +
-                "" +
-                "" +
-                "lo word!";
+        return "hello word!";
     }
 
     public static void main(String[] args) {

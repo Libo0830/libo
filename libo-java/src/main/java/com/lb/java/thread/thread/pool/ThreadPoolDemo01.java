@@ -21,7 +21,6 @@ public class ThreadPoolDemo01 {
 }
 
 class MyTask implements Runnable{
-
     private int taskNum;
 
     public MyTask(int num){
